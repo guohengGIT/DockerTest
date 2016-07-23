@@ -10,7 +10,7 @@ public class DockerTest {
 		File f = new File("E:\\DevOps\\Docker\\test\\test.txt");
 		if(!f.exists()){
 			f.createNewFile();
-			System.out.println("success");
+//			System.out.println("success");
 		}
 		FileWriter fw = new FileWriter(f);
 //		FileOutputStream fos = new FileOutputStream(fw);
