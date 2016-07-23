@@ -7,7 +7,7 @@ import java.io.IOException;
 
 public class DockerTest {
 	public static void main(String[] args) throws IOException {
-		File f = new File("E:\\DevOps\\Docker\\test\\test.txt");
+		File f = new File("c:/test.txt");
 		if(!f.exists()){
 			f.createNewFile();
 			System.out.println("success");
